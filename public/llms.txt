@@ -1,0 +1,8 @@
+## Pages
+- [- Artist Profile](/artistdetail): No description available
+- [- EventHorizon](/eventdetail): No description available
+- [404 Not Found](/notfound): No description available
+- [Artist Directory - EventHorizon](/artistdirectory): Discover and follow talented artists.
+- [Event Directory - 785](/eventdirectory): Find exciting events happening near you in the 785 area.
+- [Login - EventHorizon](/login): Login to your EventHorizon account.
+- [Personal Dashboard - EventHorizon](/dashboard): Your personalized dashboard to track upcoming events, followed artists, venue reviews, and saved posts all in one place.
