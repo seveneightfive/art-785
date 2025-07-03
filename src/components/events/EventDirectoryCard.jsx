@@ -42,7 +42,11 @@ const EventDirectoryCard = ({ event }) => {
         >
             <Link to={`/events/${event.slug}`} className="block">
                 <div className="relative">
-                    <img  className="w-full h-48 object-cover" alt={event.title} src="https://images.unsplash.com/photo-1562765722-751e6f76ac82" />
+                    <img
+  className="w-full h-48 object-cover"
+  alt={event.title}
+  src={event.hero_image || 'https://placehold.co/600x300?text=No+Image'}
+/>
                     <div className="absolute top-3 left-3">
                         {event.type && <Badge className="bg-white/90 text-slate-900 font-bold">{event.type}</Badge>}
                     </div>
