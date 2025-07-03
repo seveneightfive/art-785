@@ -33,7 +33,7 @@ const EventDirectoryCard = ({ event }) => {
         ? new Date(eventDate).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })
         : 'Date TBD';
         
-    const venueName = event.venue?.name || 'Venue TBD';
+    const venueName = event.venue.name || 'Venue TBD';
 
     return (
         <motion.div
